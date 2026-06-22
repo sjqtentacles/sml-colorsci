@@ -1,0 +1,11 @@
+(* Source files for the sml-colorsci library, in dependency order.
+   Vendored sml-color comes BEFORE our own sources; colorsci builds CIE
+   color-science extensions on top of it. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+../sml-color/color.sig
+../sml-color/color.sml
+
+colorsci.sig
+colorsci.sml

@@ -1,0 +1,5 @@
+package github.com/sjqtentacles/sml-colorsci
+
+require {
+  github.com/sjqtentacles/sml-color 1
+}
